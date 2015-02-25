@@ -1,0 +1,127 @@
+body {
+    font-family: 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, 'Lantinghei SC', 'Hiragino Sans GB', 'Microsoft YaHei', "微软雅黑", STHeiti, 'WenQuanYi Micro Hei', SimSun, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    font-weight: 500;
+    -webkit-box-sizing: padding-box;
+    -moz-box-sizing: padding-box;
+    box-sizing: padding-box;
+    font-size: 10px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 800;
+    text-rendering: optimizelegibility;
+    line-height: 20px;
+    margin: 5px 0;
+    color: black;
+    font-family: 'Helvetica Neue', Helvetica, 'Lantinghei SC', 'Hiragino Sans GB', 'Microsoft YaHei', "微软雅黑", STHeiti, 'WenQuanYi Micro Hei', SimSun, sans-serif;
+}
+h1, h2, h3 {
+    line-height: 22px;
+}
+h1 {
+    margin: 25px 0 10px;
+    font-size: 22px;
+    color: #000000;
+}
+h2 {
+    margin: 18px 0 10px;
+    font-size: 20px;
+    color: #000000;
+}
+h3 {
+    margin: 12px 0;
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    color: #777777;
+    background-color: inherit;
+    font-size: 12px;
+}
+hr {
+    border: 0;
+    border-bottom: 1.5px solid #cfcfcf;
+    margin: 10px 0;
+    height: 0.2em;
+}
+p, blockquote, ul, ol, dl, li, table, pre {
+    margin: 10px 0;
+}
+a, a:visited {
+    color: #4183C4;
+    background-color: inherit;
+    text-decoration: none;
+}
+
+code, pre {
+    font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+    font-size: 8px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #f5f2f0;
+    color: inherit;
+    border: 0;
+    white-space: pre;
+    word-wrap: break-word;
+}
+code {
+    padding: 1px 2px;
+    border: 1.5px solid #ddd;
+    font-weight: bold;
+    background-color: rgba(208, 208, 208, 0.5);
+    color: rgb(179, 5, 63);
+}
+pre {
+    overflow: auto;
+    padding: 4px 8px;
+    margin: 0 0 20px;
+    background-color: #eee;
+    line-height: 1.5;
+}
+
+pre > code {
+    color: inherit;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-color: inherit;
+    word-wrap: normal;
+}
+blockquote {
+    padding: 2px 5px;
+    border-left-style: solid;
+    border-left-width: 10px;
+    margin: 0 0 20px;
+    background: none repeat scroll 0 0 rgba(102, 128, 153, .25);
+    border-left: 5px solid #989A9C;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    display: block;
+    width: 100%;
+    overflow: auto;
+}
+table th {
+    font-weight: bold;
+}
+table th, table td {
+    padding: 6px 13px;
+    border: 1px solid #ddd;
+}
+table tr {
+    background-color: rgba(205, 205, 205, 0.17);
+    border-top: 1px solid #ccc;
+}
+table tr:nth-child(2n) {
+    background-color: #f8f8f8;
+}
+thead {
+    background-color: #c9ccca;
+}

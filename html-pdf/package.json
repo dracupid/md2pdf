@@ -1,0 +1,63 @@
+{
+  "name": "html-pdf",
+  "version": "1.1.0",
+  "description": "HTML to PDF converter that uses phantomjs",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "coffee --compile --output lib/ src/ && coffee test/index.coffee -n"
+  },
+  "author": {
+    "name": "Marc Bachmann"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "coffee-script": "^1.7.1",
+    "tape": "^3.4.0",
+    "tap-spec": "^2.2.0"
+  },
+  "optionalDependencies": {
+    "phantomjs": "^1.9.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/marcbachmann/node-html-pdf.git"
+  },
+  "keywords": [
+    "html",
+    "pdf",
+    "phantom",
+    "phantomjs",
+    "nodejs"
+  ],
+  "bugs": {
+    "url": "https://github.com/marcbachmann/node-html-pdf/issues"
+  },
+  "homepage": "https://github.com/marcbachmann/node-html-pdf",
+  "gitHead": "2e18e88829320cd225d54dd8c3e09d7b48787f26",
+  "dependencies": {
+    "phantomjs": "^1.9.8"
+  },
+  "_id": "html-pdf@1.1.0",
+  "_shasum": "b0cf90af37a90d6cc528109cd1233d7a06e92896",
+  "_from": "html-pdf@*",
+  "_npmVersion": "2.6.0",
+  "_nodeVersion": "0.10.35",
+  "_npmUser": {
+    "name": "marcbachmann",
+    "email": "marc.brookman@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "marcbachmann",
+      "email": "marc.brookman@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "b0cf90af37a90d6cc528109cd1233d7a06e92896",
+    "tarball": "http://registry.npmjs.org/html-pdf/-/html-pdf-1.1.0.tgz"
+  },
+  "_resolved": "https://registry.npmjs.org/html-pdf/-/html-pdf-1.1.0.tgz"
+}

@@ -1,0 +1,9 @@
+.nobone
+.DS_Store
+node_modules
+*.log
+.nokit
+.coffee
+dist
+*.html
+*.pdf
