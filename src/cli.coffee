@@ -32,10 +32,12 @@ if not /.md|.markdown/i.test path.extname(from)
     console.error 'markdown file name required'.red
     process.exit 1
 
+filename = path.basename from
+pdfname = filename.replace path.extname(filename), '.pdf'
+
 if not to
-    to = from.replace /.md|.markdown/, '.pdf'
-else
-    if path.extname(to) isnt '.pdf'
-        to += '.pdf'
+    to = pdfname
+else if path.extname(to) isnt '.pdf'
+    to = path.join to, pdfname
 
 require('./') from, to
