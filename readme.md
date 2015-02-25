@@ -25,5 +25,5 @@ $ md2pdf readme.md intro.pdf
 ## License
 MIT
 
-## Acknowledge
+## Acknowledgement
 https://github.com/marcbachmann/node-html-pdf/
