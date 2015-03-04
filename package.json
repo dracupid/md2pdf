@@ -11,7 +11,7 @@
     "colors": "^1.0.3",
     "highlight.js": "*",
     "remarkable": "^1.6.0",
-    "which": "^1.0.8"
+    "which": "^1.0.9"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
