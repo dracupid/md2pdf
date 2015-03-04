@@ -6,11 +6,16 @@ require 'colors'
 Remarkable = require 'remarkable'
 hljs = require 'highlight.js'
 
+cwd = process.cwd()
+
+readCurDirFileSync = (fpath) ->
+    fs.readFileSync path.join __dirname, '..', fpath
+
 module.exports = (fmd, fpdf, opts = {}) ->
     opts.highlightTheme ?= 'github'
 
     md = '' + fs.readFileSync fmd
-    style =  '<style>' + fs.readFileSync('./asserts/md.css') + fs.readFileSync('node_modules/highlight.js/styles/' + opts.highlightTheme + '.css') + '</style>'
+    style =  '<style>' + readCurDirFileSync('asserts/md.css') + readCurDirFileSync('node_modules/highlight.js/styles/' + opts.highlightTheme + '.css') + '</style>'
     remarkable = new Remarkable(
         linkify: true
         html: true
