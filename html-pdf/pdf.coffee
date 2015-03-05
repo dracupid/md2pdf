@@ -8,6 +8,7 @@ try
   phantomjs = which('phantomjs')
 catch err
   console.log('html-pdf: Failed to load PhantomJS module.', err)
+  process.exit 1
 
 #
 # phantomjs version 1.8.1 and later should work.
